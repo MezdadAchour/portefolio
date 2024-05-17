@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Mezdad Achour</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Barre de navigation -->
+    <nav>
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/img/logo-light.png"
+            alt="Logo"
+            class="light-logo"
+          />
+          <img src="./assets/img/logo-dark.png" alt="Logo" class="dark-logo" />
+        </a>
+        <ul class="nav-links">
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#competences">À propos</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="toggle-container">
+          <span class="toggle-icon"
+            ><img
+              src="./assets/img/moon.png"
+              alt="darkmode"
+              style="height: 60px"
+          /></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="./assets/img/hero-bg-light.jpg" alt="Hero Background" />
+      </div>
+      <div class="hero-content">
+        <div class="bento-container">
+          <div class="bento-item">
+            <img src="./assets/img/avatar-removebg-preview.png" alt="Avatar" />
+          </div>
+          <div class="bento-item">
+            <h1>Achour MEZDAD</h1>
+            <p class="subtitle">Développeur Web Front-end</p>
+          </div>
+        </div>
+        <div class="hero-skills">
+          <div class="skill-item">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <a href="#competences" class="btn" id="MesCompetances"
+            >Mes Compétences</a
+          >
+          <div class="skill-item">
+            <i class="fab fa-js"></i>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-react"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section class="competences animate-on-scroll" id="competences">
+      <h2>Compétences</h2>
+      <div class="bento-container">
+        <div class="bento-item bento-large">
+          <i class="fas fa-code"></i>
+          <h3>Web Développement Essentials</h3>
+          <p>HTML, CSS, JavaScript, DOM, Web et Responsive Design</p>
+          <span class="gomycode-logo">GomyCode</span>
+        </div>
+        <div class="bento-item">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS Avancé</h3>
+          <p>CSS Moderne, Frameworks CSS</p>
+        </div>
+        <div class="bento-item">
+          <i class="fab fa-github"></i>
+          <h3>Git & GitHub</h3>
+          <p>Gestion de versions, Collaboration</p>
+        </div>
+        <div class="bento-item bento-large">
+          <i class="fab fa-react"></i>
+          <h3>Front-end Développeur - React JS Certifié</h3>
+          <p>
+            React JS, Responsive UI, JSX, Redux, State Management, React
+            Components
+          </p>
+          <div class="course-info">
+            <span class="gomycode-logo">GomyCode</span>
+            <span class="in-progress">En cours</span>
+          </div>
+        </div>
+        <div class="bento-item">
+          <i class="fas fa-laptop"></i>
+          <h3>Maintenance Informatique</h3>
+          <p>Hardware, Software, Réseaux</p>
+        </div>
+        <div class="bento-item">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Master en Automatique et Informatique</h3>
+          <p>Université de Tizi-Ouzou</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section class="projets" id="projets">
+      <h2>Mes Projets</h2>
+      <div class="bento-container">
+        <div class="bento-item bento-large">
+          <div class="projet-header">
+            <a href="https://edauto.netlify.app/">
+              <img
+                src="./assets/img/edaProject.png"
+                alt="Application de Commerce Électronique"
+            /></a>
+            <div class="projet-info">
+              <h3>Application de Commerce Électronique</h3>
+              <p>
+                Mon projet phare est une application de commerce électronique
+                que j'ai conçue pour démontrer mes compétences en développement
+                web. Ce projet intègre plusieurs fonctionnalités clés qui
+                illustrent mon expertise en création de sites web modernes et
+                fonctionnels.
+              </p>
+            </div>
+          </div>
+          <div class="bento-inner">
+            <div class="bento-item bento-medium">
+              <i class="fas fa-desktop"></i>
+              <h4>Design Moderne et Attrayant</h4>
+              <p>
+                Le site est conçu avec un design moderne et attrayant, utilisant
+                les dernières tendances en matière de UI/UX. Des animations
+                subtiles, une typographie soignée, et une palette de couleurs
+                harmonieuse contribuent à une expérience visuelle agréable.
+              </p>
+            </div>
+            <div class="bento-item">
+              <i class="fas fa-store"></i>
+              <h4>Deux Stores Distincts</h4>
+              <p>
+                L'application propose deux stores distincts : un pour les pièces
+                électriques et un autre pour les logiciels. Cette segmentation
+                permet aux utilisateurs de trouver facilement les produits
+                spécifiques qu'ils recherchent.
+              </p>
+            </div>
+            <div class="bento-item bento-small">
+              <i class="fas fa-mobile-alt"></i>
+              <h4>Entièrement Responsive</h4>
+            </div>
+            <div class="bento-item bento-small">
+              <i class="fas fa-shopping-cart"></i>
+              <h4>Panier</h4>
+            </div>
+            <div class="bento-item bento-small">
+              <i class="fas fa-user-plus"></i>
+              <h4>Inscription</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="contact" id="contact">
+      <div class="contact-bg">
+        <img src="./assets/img/wallhaven-d6 (2).jpg" alt="Contact Background" />
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-content">
+            <img
+              src="./assets/img/avatar-removebg-preview.png"
+              alt="Avatar"
+              class="avatar"
+            />
+            <h3>Achour MEZDAD</h3>
+            <p class="subtitle">Développeur Web Front-end</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>contact@example.com</p>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>+1 123 456 7890</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>À propos</h3>
+          <p>
+            Je suis un développeur web front-end passionné, spécialisé dans la
+            création d'expériences utilisateur exceptionnelles.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Liens</h3>
+          <ul>
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#competences">À propos</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contactez-moi</h3>
+          <p>Email: mezdad.achour@hotmail.fr</p>
+          <p>Téléphone: +213 555 972541</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Mezdad Achour. Tous droits réservés.</p>
+      </div>
+    </footer>
+  </body>
+</html>
